@@ -13,7 +13,7 @@ st.markdown("Welcome to SmartHarvest! Let's optimize your taxes with smart, effo
 st.subheader("📈 Your Tax Saving Trends")
 tax_data = pd.DataFrame({
     'Month': ['Jan', 'Feb', 'Mar', 'Apr'],
-    'Savings (₹)': [200, 500, 300, 700]
+    'Savings (₹)': [200, 250, 300, 320]
 })
 st.line_chart(tax_data.set_index('Month'))
 
